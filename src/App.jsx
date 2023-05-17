@@ -3,8 +3,9 @@ import {Navbar} from "./homepage/Navbar"
 function App() {
   return (
     <div>
-      <Body/>
       <Navbar/>
+      <Body/>
+      
     </div>
   );
 }
