@@ -8,6 +8,7 @@ function App() {
       <h3>hello mr</h3>
       <h4>snacks time</h4>
       <h4>new update</h4>
+      <p>leaving......</p>
     </div>
   );
 }
