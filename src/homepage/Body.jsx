@@ -10,14 +10,13 @@ export const Body = () => {
       <div id="text">
       <Typewriter
  onInit={(typewriter)=>{
-  typewriter.typeString("Bill-splitting apps can be your best friend during group travels or international trips......!").start();
+  typewriter.typeString("Bill-splitting apps can be your best friend during group travels or international trips......!").changeDelay(2).start();
  }} 
  
  />
  </div>
  </div> 
 
- <img src="Think.png" alt="" id="think-img"/>
 
 
    
