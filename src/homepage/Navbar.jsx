@@ -9,7 +9,7 @@ export const Navbar = () => {
 
         <div id="nav-buttons">
         <button>Register</button>
-        <button>Sign In</button>
+        <button>LogIn</button>
         </div>
      </div>
 
