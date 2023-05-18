@@ -1,12 +1,13 @@
 *{
     margin: 0px;
+    
 }
 
 /* ......(home page)navbar...... */
 #navbar{
     height:50px;
     width:100vw;
-    background-color: gray;
+    background-color: rgb(125, 16, 8);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,10 +21,52 @@
     }
    #navbar button{
     border-radius: 8px;
-    height: 30px;
+    height: 35px;
+    width: 80px;
     border:none;
+    font-size: 18px;
+    font-family: Rockwell;
    }
    div>button:hover{
     background-color: red;
     color: white;
+   }
+   
+    #typing-div{
+    height: 300px;
+    width: 600px;
+    
+   
+    margin: auto;
+   
+    /* box-shadow: 2px 2px 20px rgb(215, 69, 96); */
+    
+    border-radius: 10px;
+   
+    
+    
+    
+   } 
+   #think-img{
+    height: 300px;
+    width: 300px;
+    margin-left: 190px;
+    border-radius: 20px;
+    
+    
+   }
+   #text{
+    
+    font-size: 30px;
+    font-family: Rockwell;
+    color: white;
+    padding-top: 100px;
+    
+   }
+   #body{
+    background-image: url("C:\Users\nagenc\projectbill\public\globeleft.jpg") ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
    }
