@@ -56,7 +56,7 @@ function Signin() {
         <div className="ui divider"></div>
         <div className="ui form">
           <div className="field">
-            <label>Username</label><br/>
+            <label> create Username</label><br/>
             <input
               type="text"
               name="username"
@@ -67,7 +67,7 @@ function Signin() {
           </div>
           <p>{formErrors.username}</p>
           <div className="field">
-            <label>Email</label><br/>
+            <label> create Email</label><br/>
             <input
               type="text"
               name="email"
@@ -78,7 +78,7 @@ function Signin() {
           </div>
           <p>{formErrors.email}</p>
           <div className="field">
-            <label>Password</label><br/>
+            <label> create Password</label><br/>
             <input
               type="password"
               name="password"
