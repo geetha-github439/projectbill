@@ -29,9 +29,10 @@
     font-family: Rockwell;
    }
    div>button:hover{
-    background-color: red;
+    /* background-color: red; */
     color: white;
    }
+
    
     #typing-div{
     height: 300px;
@@ -107,3 +108,77 @@
     margin-top: 40px;
     font-size: 27px;
    }
+   body {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(
+      circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(30, 54, 59, 1) 0%,
+      rgba(93, 93, 116, 1) 100%
+    );
+  }
+  
+  .container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center; 
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  .container > form {
+    width: 70%;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 5px;
+    background: #ec89ee;
+    
+  }
+  pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+  }
+  
+  button {
+    
+    border-radius: 10px;
+    width: 100px;
+    padding:5px;
+    margin-left: 100px;
+    margin-right: 20px;
+    background-color:blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  p{
+    color: red;
+  }
+  input{
+    margin: 10px;
+    align-items: center;
+    align-content: center;
+    margin-left: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+  }
+  label{
+    margin-left: 10px;
+  }
+  h1{
+    margin-bottom: 10px;
+  }
+  .forgot{
+    margin-top: 10px;
+  }
+  a{
+    color:black;
+    margin-left: 70px;
+  }
+  .lo{
+    color:black;
+    margin-left: 50px;
+}
