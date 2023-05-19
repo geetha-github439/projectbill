@@ -47,16 +47,16 @@ function Signin() {
 
   return (
     <div className="container">
-       {Object.keys(formErrors).length === 0 && isSubmit}  {
-        <div className="ui message success">Signed in successfully</div>}
+       {/* {Object.keys(formErrors).length === 0 && isSubmit}  {
+        <div className="ui message success">Signed in successfully</div>} */}
 
 
       <form onSubmit={handleSubmit}>
-        <h1>Login Form</h1>
+        <h1>Sign in</h1>
         <div className="ui divider"></div>
         <div className="ui form">
           <div className="field">
-            <label>Username</label>
+            <label>Username</label><br/>
             <input
               type="text"
               name="username"
@@ -67,7 +67,7 @@ function Signin() {
           </div>
           <p>{formErrors.username}</p>
           <div className="field">
-            <label>Email</label>
+            <label>Email</label><br/>
             <input
               type="text"
               name="email"
@@ -78,7 +78,7 @@ function Signin() {
           </div>
           <p>{formErrors.email}</p>
           <div className="field">
-            <label>Password</label>
+            <label>Password</label><br/>
             <input
               type="password"
               name="password"
@@ -90,6 +90,7 @@ function Signin() {
           <p>{formErrors.password}</p>
           <button className="fluid ui button blue">Submit</button>
         </div>
+        <a href="Login.jsx" className="lo">Already a member ?  Login Here</a>
       </form>
     </div>
   );
