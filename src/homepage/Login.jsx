@@ -1,26 +1,29 @@
 import React from 'react'
+// import { useNavigate } from 'react-router-dom'
 
-const Login = () => {
+  export const Login = () => {
+
+    // const navigate=useNavigate();
   return (
     <div className='container'>
 <form >
-    <h1>Login in</h1>
+    <h1 className="g">Login in</h1>
     <div>
-    <label>Username</label><br/>
+    <label className='il'>Username</label><br/>
 <input type='text' name='username' placeholder=' enter Username' ></input>
 </div>
 <div>
-    <label>Password</label><br/>
+    <label className='il'>Password</label><br/>
 <input type='password' name='password' placeholder='enter password' ></input>
 </div>
 <div>
-    <label>Phone number</label><br/>
+    <label className='il'>Phone number</label><br/>
 <input type='number' name='phone number' placeholder='enter phone number' ></input>
 </div>
 <div>
 <p className='forgot'>Forgot password ?</p>
-    <button>Login</button><br/>
-    <a href="Signin.jsx">not a member signin here</a>
+    <button >Login</button><br/>
+    <a href="Signin.jsx" class="si">not a member signin here</a>
 
 </div>
 
@@ -30,4 +33,3 @@ const Login = () => {
   )
 }
 
-export default Login

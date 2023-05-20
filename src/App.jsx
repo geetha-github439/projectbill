@@ -1,30 +1,21 @@
+
+    // import { Navbar } from "./homepage/Navbar"
 // import {Body} from "./homepage/Body"
+//  import { Routes,Route,BrowserRouter} from "react-router-dom"
+//  import { Signin } from "./Signin/Signin"
+//  import {Login} from "./homepage/Login"
 
+ import { Navbar } from "./homepage/Navbar";
 
-import { Sign } from "./sign up/Sign";
-
-// import {Navbar} from "./homepage/Navbar"
-function App() {
+ 
+ 
+export function App() {
   return (
     <div>
-      {/* <Navbar/>
-      <Body/> */}
-      <Sign/>
 
-//  import {Navbar} from "./homepage/Navbar"
- import Signin from "./Signin/Signin"
- import Login from "./homepage/Login";
-function App() {
-  return (
-    <div>
-       {/* <Navbar/>
-      <Body/> */}
-      <Login/>
-      <Signin/> 
 
-      
-    </div>
-  );
-}
+ <Navbar/> 
 
-export default App;
+
+   </div>
+  )}

@@ -165,16 +165,16 @@
     width: 200px;
     border-radius: 5px;
   }
-  label{
+  .il{
     margin-left: 10px;
   }
-  h1{
+  .g{
     margin-bottom: 10px;
   }
   .forgot{
     margin-top: 10px;
   }
-  a{
+  .si{
     color:black;
     margin-left: 70px;
   }
