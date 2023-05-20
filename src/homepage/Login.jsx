@@ -1,5 +1,6 @@
 import React from 'react'
 // import { useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
   export const Login = () => {
 
@@ -23,7 +24,7 @@ import React from 'react'
 <div>
 <p className='forgot'>Forgot password ?</p>
     <button >Login</button><br/>
-    <a href="Signin.jsx" class="si">not a member signin here</a>
+    <Link to='/signin'><a href="Signin.jsx" class="si">not a member signin here</a></Link>
 
 </div>
 

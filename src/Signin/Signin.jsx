@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import {Link} from "react-router-dom";
 
 
  export function Signin() {
@@ -90,7 +91,7 @@ import { useState, useEffect } from "react";
           <p>{formErrors.password}</p>
           <button className="fluid ui button blue">Submit</button>
         </div>
-        <a href="Login.jsx" className="lo">Already a member ?  Login Here</a>
+        <Link to='/login'><a href="Login.jsx" className="lo">Already a member ?  Login Here</a></Link>
       </form>
     </div>
   );
