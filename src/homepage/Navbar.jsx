@@ -25,9 +25,9 @@ export const Navbar = () => {
 
         <div id="nav-buttons">
         
-        <Link to='/Body'> <button >Home</button></Link>
+        <Link to='/body'> <button >Home</button></Link>
         <Link to='/Login'> <button>Login</button></Link>
-        <Link to='/Body'> <button>Body</button></Link>
+        <Link to='/signin'> <button>Signin</button></Link>
 
         </div>
      </div>

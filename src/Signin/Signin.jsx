@@ -59,6 +59,7 @@ import {Link} from "react-router-dom";
           <div className="field">
             <label> create Username</label><br/>
             <input
+            className="inp"
               type="text"
               name="username"
               placeholder="Username"
@@ -66,10 +67,10 @@ import {Link} from "react-router-dom";
               onChange={handleChange}
             />
           </div>
-          <p>{formErrors.username}</p>
+          <p className="e">{formErrors.username}</p>
           <div className="field">
             <label> create Email</label><br/>
-            <input
+            <input className="inp"
               type="text"
               name="email"
               placeholder="Email"
@@ -77,10 +78,11 @@ import {Link} from "react-router-dom";
               onChange={handleChange}
             />
           </div>
-          <p>{formErrors.email}</p>
+          <p className="e">{formErrors.email}</p>
           <div className="field">
             <label> create Password</label><br/>
             <input
+            className="inp"
               type="password"
               name="password"
               placeholder="Password"
@@ -88,8 +90,8 @@ import {Link} from "react-router-dom";
               onChange={handleChange}
             />
           </div>
-          <p>{formErrors.password}</p>
-          <button className="fluid ui button blue">Submit</button>
+          <p className="e">{formErrors.password}</p>
+          <button className="sb">Submit</button>
         </div>
         <Link to='/login'><a href="Login.jsx" className="lo">Already a member ?  Login Here</a></Link>
       </form>

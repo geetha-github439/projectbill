@@ -5,7 +5,8 @@
 //  import { Signin } from "./Signin/Signin"
 //  import {Login} from "./homepage/Login"
 
- import { Navbar } from "./homepage/Navbar";
+//  import { Navbar } from "./homepage/Navbar";
+// import CreatingGroup from "./pages/CreatingGroup";
 
  
  
@@ -14,8 +15,8 @@ export function App() {
     <div>
 
 
- <Navbar/> 
-
+ {/* <Navbar/> 
+<CreatingGroup/> */}
 
    </div>
   )}
