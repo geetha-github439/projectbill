@@ -1,12 +1,13 @@
 import React from 'react'
 import TodoList from './TodoList'
 import { useState } from 'react';
-import AddExpense from './AddExpense';
+ import AddExpense from './AddExpense';
 
 const Todo = () => {
     const [task,setTask] = useState("");
     const [todos,setTodos] = useState([]);
     
+   
   
     const changeHandler = e =>{
       setTask(e.target.value)
@@ -14,6 +15,7 @@ const Todo = () => {
     const submitHandler = e =>{
       e.preventDefault();
       const newTodos = [...todos,task];
+
       setTodos(newTodos);
       setTask("");
     }
@@ -33,7 +35,8 @@ const Todo = () => {
               <button  className='todob' value="Add" name="Add"> Done</button>
             </form>
             <TodoList todolist={todos} deleteHandler={deleteHandler}/>
-             <AddExpense todolist={todos}/>
+             <AddExpense todolist={todos}/> 
+            <h1>hello </h1>
           </div>
         </div>
       </center>
