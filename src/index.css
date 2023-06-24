@@ -1,33 +1,48 @@
 *{
     margin: 0px;
     
+    
 }
 
 /* ......(home page)navbar...... */
 #navbar{
-    height:70px;
+    height:50px;
     width:100vw;
-    background-color: rgb(186, 33, 135);
+    opacity: 100%;
+    background-color: rgb(212, 33, 33);
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: fixed;
 }
+#navbar-in-group{
+  background-color: #dd3131;
+}
+.ui{
+  margin-left: 80px;
+  margin-top: 20px;
+  
+}
 #nav-buttons{
-    height: 25px;
-    width:200px;
+    height: 13px;
+    width: 100px;
         display: flex;
-        justify-content: space-around;
+        justify-content:space-around;
         align-items: center;
-    }
-   #navbar button{
-    border-radius: 8px;
-    height: 35px;
+        
+}
+   #navbar input{
+    border-radius: 10px;
+    height: 30px;
     width: 80px;
     border:none;
-    font-size: 18px;
-    font-family: Rockwell;
-   }
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Arial;
+    }
+    #navbar input:hover{
+    
+    }
    div>button:hover{
     /* background-color: red; */
     color: white;
@@ -49,14 +64,14 @@
     
     
    } 
-   #think-img{
+   /* #think-img{
     height: 300px;
     width: 300px;
     margin-left: 190px;
     border-radius: 20px;
     
     
-   }
+   } */
    #text{
     
     font-size: 30px;
@@ -76,18 +91,25 @@
    
    /*sign in */
 
-
    #sign-in{
     height: 500px;
-    width: 500px;
-    box-shadow: 2px 2px 10px black;
+    width: 700px;
+    box-shadow: 5px 5px 50px red;
     border: 2px solid black;
     
-    margin: 200px 700px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
     
+   }
+   
+   #submit-sign-button{
+    margin-left: 70px;
+    background-color: rgb(241, 216, 241);
+    width: 100px;
+    font-size: 15px;
+    cursor: pointer;
    }
    #sign-form{
        font-size: 27px;
@@ -102,38 +124,39 @@
     font-size: 20px;
     width: 150px;
     
+    
    }
    #forget{
     margin-left: 150px;
     margin-top: 40px;
     font-size: 27px;
    }
-   body {
-    background: rgb(2, 0, 36);
-    background: radial-gradient(
-      circle,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(30, 54, 59, 1) 0%,
-      rgba(93, 93, 116, 1) 100%
-    );
-  }
+   .login-form{
+  margin-left: 100px;
+  margin-top: 20px;
+   }
+  
   
   .container {
+    
     display: flex !important;
     flex-direction: column;
     justify-content: center;
      align-items: center; 
     height: 100vh;
-    max-width: 500px;
-    width: 100%;
+    max-width: 600px;
+    width: 100%; 
     margin: auto;
+  
+    
   }
   .container > form {
     width: 70%;
     border: 1px solid #dfdfdf;
     padding: 20px;
-    border-radius: 5px;
-    background: #ec89ee;
+    border-radius: 10px;
+    background: #f7f2db;
+    box-shadow: 5px 5px 15px gray;
     
   }
   pre {
@@ -153,6 +176,14 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+  #submit-login-button{
+    margin-left: 150px;
+    background-color: rgb(241, 216, 241);
+    width: 100px;
+    font-size: 15px;
+    cursor: pointer;
+    
+   }
   p{
     color: red;
   }
@@ -164,6 +195,8 @@
     padding: 10px;
     width: 200px;
     border-radius: 5px;
+    border: none;
+    outline: none;
   }
   label{
     margin-left: 10px;
@@ -179,6 +212,374 @@
     margin-left: 70px;
   }
   .lo{
+    margin-top: 50px;
     color:black;
-    margin-left: 50px;
+    margin-left: 190px;
+    text-decoration: none;
+}
+
+
+
+/*create group........*/
+
+#creategroup{
+  height: 80px;
+  width: 190px;
+  color: rgb(241, 246, 247);
+  background-color: #47c0b4;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  
+  box-shadow: 5px 5px 2px rgb(65, 76, 78);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+#pop-up{
+height: 300px;
+width: 500px;
+box-shadow: 5px 5px 35px gray;
+
+background: rgb(236, 239, 228);
+position: fixed;
+margin-left: 450px;
+margin-top: 80px;
+border-radius: 20px;
+
+}
+#pop-up-content{
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pop-up-content-frnd{
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pop-submit-button{
+  height: 45px;
+  width: 100px;
+  margin-left: 60px;
+  font-size: 17px;
+  background-color: #f0d0d0;
+  cursor: pointer;
+}
+#pop-submit-button-inexpenceadd{
+  height: 45px;
+  width: 100px;
+  margin-left: 200px;
+  font-size: 17px;
+  background-color: #f0d0d0;
+  cursor: pointer;
+}
+#groupdiv{
+  margin-top: 50px;
+  margin-left: 380px;
+  
+  display: grid;
+  
+ grid-template-columns: 180px 180px 180px;
+ grid-template-rows: 60px 60px 60px;
+ gap: 50px;
+  
+  
+}
+#groupname{
+ 
+  background-color: rgba(115, 173, 212, 0.937);
+  display: flex;
+  align-items:center ;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#grouptext{
+  color: black;
+
+
+}
+
+
+#add-frnd-div{
+  height: 100vh;
+  width: 400px;
+  background-color: white;
+}
+
+#add-friends-button{
+  position: fixed;
+  height: 100vh;
+  width: 250px;
+  color: #292929;
+  
+}
+#group-main-div{
+  display: flex;
+  position: fixed;
+  /* width:100%; */
+  
+  
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+
+  
+}
+#add-expence-button{
+  height: 50px;
+  width: 200px;
+  
+  margin-left: 1000px;
+  margin-top: 500px;
+  border: none;
+  box-shadow: 3px 3px 5px rgb(23, 2, 2);
+  background-color:rgb(228, 212, 172);
+  cursor: pointer;
+  position: fixed;
+}
+#friend-names-div{
+  height: 30px;
+  width:200px;
+  background-color:#dd3131;
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 2px;
+  
+}
+#groupmembers-name{
+  color: white;
+  text-transform: capitalize
+}
+#group-member-heading{
+  padding: 10px;
+  color: black;
+}
+#expence-div{
+  height: 100px;
+  width: 700px;
+  background-color: antiquewhite;
+  margin-top: 5px;
+  margin-left: 20px;
+
+}
+tr>th{
+  width: 300px;
+} 
+#expence-td{
+  
+   text-align: center; 
+}
+#expence-check-button{
+  height: 34px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(16, 124, 192);
+  color: white;
+}
+#expence-popup{
+  height: 400px;
+width: 500px;
+box-shadow: 5px 5px 35px gray;
+position: fixed;
+background: white;
+margin-left: 450px;
+margin-top: 40px;
+border-radius: 20px;
+}
+#expence-popup-content>h3{
+  margin-left: 230px;
+  margin-top: 30px;
+}
+#expence-popup-content>div{
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+#expence-popup-content>h4{
+  margin-left: 50px;
+  margin-top: 5px;
+}
+#expence-add-popup{
+  height: 450px;
+  width: 800px;
+  box-shadow: 2px 2px 20px gray;
+  
+  background: rgb(234, 238, 217);
+  position: fixed;
+  margin-left: 300px;
+  margin-top: 40px;
+  border-radius: 15px;
+  
+}
+#expence-add-popup-content{
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  margin-top: 50px;
+  margin-left: 150px;
+
+}
+#close-icon-inexpenceadd{
+  position: fixed;
+  margin-left: 750px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#check-box-addexpence{
+  width: 20px;
+}
+#check-amount{
+  margin-left: 100px;
+}
+#co{
+  width: 300px;
+  
+}
+#co1{
+  margin-top: 5px;
+  width: 300px;
+  padding-left: 51px;
+  font-size: 20px;
+}
+#co22{
+  font-size: 20px;
+}
+#expence-total{
+  margin-left: 220px;
+  margin-top: 5px;
+}
+#expence-total-amount{
+  margin-left: 29px;
+  color: red;
+}
+#navbar-in-group{
+  margin-top: 0px;
+  
+  height: 50px;
+  width: 100vw;
+  background-color: #c63434;
+  display: flex;
+  align-items: center;
+  
+  
+}
+#nav-h1{
+  margin-left: 950px;
+}
+#icon-account{
+  font-size: 35px;
+  color: white;
+}
+#id-name{
+  font-size: 20px;
+  color: white;
+}
+#logout-button{
+  width: 80px;
+  margin-left: 50px;
+  border-radius: 30px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+#about-app-content{
+  
+  height: 100px;
+  width: 900px;
+  margin-left: 400px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+#close-icon{
+  position: fixed;
+  margin-left: 450px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#add-frd-button{
+  border: none;
+  box-shadow: 3px 3px 5px rgb(0, 4, 5);
+  
+  font-size: 15px;
+  background-color: #f0dab0;
+}
+#expence-id{
+  margin-left: 250px;
+  margin-top: 20px;
+  
+}
+#expence-delete-icon{
+  margin-left: 60px;
+  cursor: pointer;
+}
+.frnd-name{
+  width: 500px;
+  font-size: 20px;
+}
+#piechart{
+  position: fixed;
+  margin-left: 1000px;margin-top: 100px;
+ 
+}
+#view-details{
+  
+  margin-left: 50px;
+  width: 350px;
+}
+#expence-total-div{
+  height: 100vh;
+  width: 750px;
+  margin-left: 230px;
+  overflow-x: scroll
+  
+}
+#view-details-button{
+  margin-left: 100px;
+  height: 40px;
+  width: 160px;
+  color: rgb(16, 16, 16);
+  background-color: white;
+  outline: none;
+  border: none;
+  background-color: rgb(231, 211, 164);;
+  box-shadow: 3px 3px 5px rgb(16, 1, 1);
+  font-size: 15px;
+  border-radius: 5px;
+}
+#div-view-details td{
+  text-align: center;
+}
+#get th{
+  color: green;
+}
+#paid th{
+  color: red;
+}
+#ui{
+  
+  position: fixed;
+  background: url("https://img.freepik.com/free-photo/tourist-doing-victory-gesture_1368-7020.jpg?w=360&t=st=1686859205~exp=1686859805~hmac=8596263301c6d8b79cb1cae53e7ccf987fdf6a5e0a8c7f771b5787f1542d8ef5") ;
+ background: no-repeat;
+ 
+
+  
+  
 }
